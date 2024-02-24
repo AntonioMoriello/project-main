@@ -1,0 +1,113 @@
+* {
+    font-family: "Epilogue", sans-serif;
+    font-size: 1.3rem;
+  }
+  
+  .logo {
+    font-size: 1.3rem;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  nav,
+  .cta-btns,
+  .menu-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav {
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    justify-content: space-between;
+  }
+  
+  .mobile-nav {
+    display: none;
+  }
+  
+  .logos-section {
+    display: flex;
+  }
+  
+  .menu-items li,
+  .cta-btns li {
+    font-size: 0.7rem;
+    margin-right: 1rem;
+    color: hsl(260, 77%, 40%);
+  }
+  
+  .cta-btns li:nth-last-child(1) {
+    border: 1px solid gray;
+    padding: 0.2rem 0.7rem;
+    border-radius: 0.3rem;
+    color: brown;
+  }
+  
+  .hero {
+    display: flex;             
+    align-items: center;
+    justify-content: flex-end;  
+    min-height: 80vh;
+    background-color: #f5f5f5;
+  }
+  
+  .hero img { 
+    max-width: 50%;  
+    height: auto;  
+    margin: 20px;   
+  }
+  
+  .hero-text {
+    text-align: center;
+    margin: 0 2rem;
+    flex: 1;  
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .learn-more-btn {
+    background-color: #000000;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none; 
+  } 
+
+  .icon-container {
+  display: flex;
+  justify-content: space-around; 
+  margin-top: 2rem; 
+}
+
+.icons-list {
+  list-style: none;
+  padding: 0;
+}
+
+.icons-list li {
+    margin: 0; 
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .icons-list li img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .icons-list li span {
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+  
+  
